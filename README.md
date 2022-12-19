@@ -17,6 +17,7 @@
   - [Install](#install)
   - [Usage](#usage)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -101,6 +102,16 @@ Example command:
 
 
 <p align="right"><a href="#readme-top">back to top</a></p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Features to add to the project.
+
+- [ ] **[SET UP ASSOCIATIONS]**
+- [ ] **[ADD BASIC UI]**
+- [ ] **[REFACTOR CODE]**
 
 
 <!-- CONTRIBUTING -->
