@@ -116,11 +116,11 @@ class App
 
   def create_rental
     puts 'Select a book from the list (Enter number)'
-    list_books
+    @book.each_with_index {|item, i| puts "#{i}-- #{item.title}, #{item.author}"}
     index = gets.chomp.to_i
     book = @book[index]
     puts 'Select a person from the list (Enter number)'
-    list_people
+    @people.each_with_index {|item, i| puts "#{i}- #{item.name}"}
     person_index = gets.chomp.to_i
     person = @people[person_index]
     print 'Date(yyyy/mm/dd): '
