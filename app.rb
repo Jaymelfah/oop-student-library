@@ -73,6 +73,7 @@ class App
     @book.each_with_index do |item, i|
       puts "#{i} Title: #{item.title}, Author: #{item.author}"
     end
+    show_menu
   end
 
   def list_people
@@ -85,6 +86,7 @@ class App
     @people.each_with_index do |item, i|
       puts "#{i}-- [#{item.class}] Name:#{item.name},  Age: #{item.age}"
     end
+    show_menu
   end
 
   def create_person
