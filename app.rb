@@ -88,7 +88,7 @@ class App
   end
 
   def create_person
-    puts 'Do you want to create a student (1) or a teacher (2)? ..Please input number'
+    print 'Do you want to create a student (1) or a teacher (2)? ..Please input number:  '
     option = gets.chomp.to_i
 
     case option
@@ -131,13 +131,14 @@ class App
   end
 
   def list_rentals
-    puts 'Select ID of any person'
+    puts 'Select ID of any person (Please type the number of the ID)'
     @people.each { |item| puts "id: #{item.id}, Person: #{item.name}" }
     print 'Person id: '
     id = gets.chomp.to_i
     @rental.each do |item|
-      puts "Date: #{item.date}, Book: #{item.book} by #{item.person}" if item.person.id.to_i == id
+      puts "Date: #{item.date}, Book: #{item.book.title} by #{item.book.author}" if item.person.id.to_i == id
     end
+    show_menu
   end
 
   def show_menu
@@ -155,7 +156,7 @@ class App
     age = gets.chomp.to_i
     print 'Name: '
     name = gets.chomp
-    print 'Has parent permission? [true/false]'
+    print 'Has parent permission? [Y/N]'
     permission = gets.chomp
     new_student = Student.new(age, permission, name)
     @people.push(new_student)
