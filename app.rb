@@ -111,7 +111,6 @@ class App
     book = Book.new(title, author)
     @book.push(book)
     puts 'Book successfully created!'
-    show_menu
   end
 
   def create_rental
