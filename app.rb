@@ -15,18 +15,18 @@ class App
     @rental = []
   end
 
-  def run
-    puts library_menu
+  # def run
+  #   puts library_menu
 
-    input = gets.chomp
-    if input <= '6'
-      options(input)
-    elsif input == '7'
-      puts 'Thanks for using our app!'
-    else
-      puts 'Please select a number from 1 - 7'
-    end
-  end
+  #   input = gets.chomp
+  #   if input <= '6'
+  #     options(input)
+  #   elsif input == '7'
+  #     puts 'Thanks for using our app!'
+  #   else
+  #     puts 'Please select a number from 1 - 7'
+  #   end
+  # end
 
   # def library_menu
   #   puts ''
