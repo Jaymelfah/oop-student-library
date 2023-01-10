@@ -33,4 +33,21 @@ module ShowMenu
   def show_books
     get_data('books').map { |item| Book.new(item['title'], item['author']) }
   end
+
+  def show_people
+    get_data('person').map do |item|
+      case item['class']
+      when 'student'
+        Student.new(item['age'], item['permission'], item['name'])
+      when 'teacher'
+        Teacher.new(item['age'], item['specialization'], item['name'])
+      else
+        []
+      end
+    end
+  end
+
+  def show_rentals(book, people)
+    get_data('rentals').map { |item| Rental.new(item['date'], book[item['book_index']], people[item['person_index']]) }
+  end
 end
