@@ -1,0 +1,50 @@
+[
+  {
+    "id" : 315,
+    "name" : "Mark",
+    "age" : 12,
+    "class" : "student"
+  },
+  {
+    "id" : 648,
+    "name" : "Kim Kole",
+    "age" : 13,
+    "class" : "teacher"
+  },
+  {
+    "id" : 329,
+    "name" : "Linda",
+    "age" : 45,
+    "class" : "teacher"
+  },
+  {
+    "id" : 900,
+    "name" : "ajhd",
+    "age" : 89,
+    "class" : "teacher"
+  },
+  {
+    "id" : 39,
+    "name" : "ewe",
+    "age" : 23,
+    "class" : "teacher"
+  },
+  {
+    "id" : 810,
+    "name" : "wrwr",
+    "age" : 21,
+    "class" : "teacher"
+  },
+  {
+    "id" : 978,
+    "name" : "dff",
+    "age" : 46,
+    "class" : "student"
+  },
+  {
+    "id" : 224,
+    "name" : "Julie",
+    "age" : 15,
+    "class" : "student"
+  }
+]
