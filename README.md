@@ -100,6 +100,12 @@ Example command:
 - GitHub: [GitHub](https://github.com/Jaymelfah)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jeremiah-ekow-melfah-a4402a161/)
 
+👤 **Kenny Elias**
+
+- GitHub: [GitHub](https://github.com/kennyegun24)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kenny-egun-kennyegun24)
+
+
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 

@@ -29,7 +29,6 @@ class Creation
     print 'Author: '
     author = gets.chomp
     book = Book.new(title, author)
-    @book.push(*book)
     book_data = { title: book.title, author: book.author }
     puts 'Book successfully created!'
     data_storage = get_data('books')
@@ -50,7 +49,6 @@ class Creation
     print 'Date(yyyy/mm/dd): '
     date = gets.chomp
     rental = Rental.new(date, book, person)
-    @rental.push(*rental)
     puts rental
     puts 'Rental created successfully'
     rental_data = { date: date, book_index: index, person_index: person_index }
@@ -70,7 +68,6 @@ class Creation
     print 'Has parent permission? [Y/N]'
     permission = gets.chomp
     new_student = Student.new(age, permission, name)
-    @people.push(*new_student)
     puts 'Student created successfully'
     student_data = { id: new_student.id, name: new_student.name, age: new_student.age, class: 'student' }
     data_storage = get_data('person')
