@@ -31,6 +31,6 @@ module ShowMenu
   end
 
   def show_books
-    get_data('books').map { |item| }
+    get_data('books').map { |item| Book.new(item['title'], item['author']) }
   end
 end

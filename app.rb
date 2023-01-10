@@ -11,7 +11,7 @@ class App
   attr_reader :book, :people, :rental
 
   def initialize
-    @book = []
+    @book = show_books
     @people = []
     @rental = []
   end
